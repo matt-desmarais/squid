@@ -5,7 +5,7 @@ import time
 
 class Button:
     
-    BUTTON_PIN = 0
+    BUTTON_PIN = 7
     DEBOUNCE = 0
 	
     def __init__(self, button_pin, debounce=0.05):
